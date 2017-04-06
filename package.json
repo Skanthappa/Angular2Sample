@@ -7,9 +7,9 @@
     "build:watch": "tsc -p src/ -w",
     "prestart": "npm run build",
     "start": "concurrently \"npm run build:watch\" \"npm run serve\"",
-    "serve": "lite-server -c=bs-config.json",    
-    "test": "concurrently \"npm run build:watch\" \"karma start karma.conf.js\"",
-    "test:once": "karma start karma.conf.js --single-run"
+    "serve": "lite-server -c=bs-config.json"    
+    //, "test": "concurrently \"npm run build:watch\" \"karma start karma.conf.js\"",
+    // "test:once": "karma start karma.conf.js --single-run"
      },
   "keywords": [],
   "author": "",
